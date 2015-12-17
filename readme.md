@@ -9,30 +9,47 @@
 `npm install express-generator -g`
 global install! 
 
-`$ express awesomeTea`
+`$ express awesomeTea --ejs`
 
 generates this:
-   create : awesomeTea
-   create : awesomeTea/package.json
-   create : awesomeTea/app.js
-   create : awesomeTea/public
-   create : awesomeTea/public/images
-   create : awesomeTea/public/javascripts
-   create : awesomeTea/public/stylesheets
-   create : awesomeTea/public/stylesheets/style.css
-   create : awesomeTea/routes
-   create : awesomeTea/routes/index.js
-   create : awesomeTea/routes/users.js
-   create : awesomeTea/views
-   create : awesomeTea/views/index.jade
-   create : awesomeTea/views/layout.jade
-   create : awesomeTea/views/error.jade
-   create : awesomeTea/bin
-   create : awesomeTea/bin/www
 
-   install dependencies:
-     $ cd awesomeTea && npm install
+create : awesomeTea2
 
-   run the app:
-     $ DEBUG=awesomeTea:* npm start
+create : awesomeTea2/package.json
 
+create : awesomeTea2/app.js
+
+create : awesomeTea2/public
+
+create : awesomeTea2/public/javascripts
+
+create : awesomeTea2/routes
+
+create : awesomeTea2/routes/index.js
+
+create : awesomeTea2/routes/users.js
+
+create : awesomeTea2/public/stylesheets
+
+create : awesomeTea2/public/stylesheets/style.css
+
+create : awesomeTea2/public/images
+
+create : awesomeTea2/views
+
+create : awesomeTea2/views/index.ejs
+
+create : awesomeTea2/views/error.ejs
+
+create : awesomeTea2/bin
+
+create : awesomeTea2/bin/www
+
+
+install dependencies:
+
+   $ cd awesomeTea2 && npm install
+
+run the app:
+
+   $ DEBUG=awesomeTea2:* npm start
