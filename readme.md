@@ -35,3 +35,4 @@ generates this:
 
    run the app:
      $ DEBUG=awesomeTea:* npm start
+
